@@ -35,7 +35,7 @@ public class Utils {
 
     public static boolean isReadStorageGranted (Context context) {
         int storagePermissionGranted = ContextCompat.checkSelfPermission(context,
-                Manifest.permission.READ_EXTERNAL_STORAGE);
+                Manifest.permission.READ_MEDIA_IMAGES);
         return storagePermissionGranted == PackageManager.PERMISSION_GRANTED;
     }
 
